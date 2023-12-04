@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie booking</title>
+</head>
+
+<body>
+    <section class="top-bar">
+        <div class="left-content">
+            <h2 class="title">Ticket Buzz</h2>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a class="active" href="#">Movies</a></li>
+                <li><a href="#">Theaters</a></li>
+                <li><a href="#">News</a></li>
+            </ul>
+        </div>
+        <div class="right-content">
+            <img src="images/filter.png" alt="" class="filter">
+            <img src="images/cart.png" alt="" class="cart">
+            <img src="images/help.png" alt="" class="help">
+            <div class="profile-img-box">
+                <img src="https://www.smartprix.com/bytes/wp-content/uploads/2023/02/movie-ticketing-1024x768-photoutils.com_.jpg" alt="">
+            </div>
+            <img src="images/menu.png" alt="" class="menu">
+        </div>
+    </section>
+    <section class="main-container">
+        <div class="sidebar">
+            <form action="#">
+                <div class="sidebar-groups">
+                    <h3 class="sg-title">Categories</h3>
+                    <input type="checkbox" id="adventure" name="adventure" value="adventure">
+                    <label for="adventure">Adventure</label><br>
+                    <input type="checkbox" id="action" name="action" value="action">
+                    <label for="action">Action</label><br>
+                    <input type="checkbox" id="animation" name="animation" value="animation">
+                    <label for="animation">Animation</label><br>
+                    <input type="checkbox" id="comedy" name="comedy" value="comedy">
+                    <label for="comedy">Comedy</label><br>
+                    <input type="checkbox" id="science" name="science" value="science">
+                    <label for="science">Science Fiction</label><br>
+                    <input type="checkbox" id="thriller" name="thriller" value="thriller">
+                    <label for="thriller">Thriller</label><br>
+                    <input type="checkbox" id="history" name="history" value="history">
+                    <label for="history">History</label><br>
+                    <input type="checkbox" id="documentary" name="documentary" value="documentary">
+                    <label for="documentary">Documentary</label><br>
+                    <input type="checkbox" id="fantasy" name="fantasy" value="fantasy">
+                    <label for="fantasy">Fantasy</label><br>
+
+                </div>
+                <div class="sidebar-groups">
+                    <h3 class="sg-title">Language</h3>
+                    <input type="checkbox" id="english" name="english" value="english">
+                    <label for="english">English</label><br>
+                    <input type="checkbox" id="spanish" name="spanish" value="spanish">
+                    <label for="spanish">Spanish</label><br>
+                    <input type="checkbox" id="hindi" name="hindi" value="hindi">
+                    <label for="hindi">Hindi</label><br>
+                </div>
+                <div class="sidebar-groups">
+                    <h3 class="sg-title">Time</h3>
+                    <input type="radio" id="morning" name="time" value="morning">
+                    <label for="morning">Morning</label><br>
+                    <input type="radio" id="night" name="time" value="night">
+                    <label for="night">Night</label><br>
+                </div>
+                <div class="sidebar-groups">
+                    <a href="#" class="btn-l btn">Apply Filters</a>
+                </div>
+            </form>
+        </div>
+        <div class="movies-container">
+            <div class="upcoming-img-box">
+                <img src="https://m.media-amazon.com/images/M/MV5BNWU5ZDRmMWItZGU0NC00NzZjLTgzYjctY2RlMzI3OTNkN2U5XkEyXkFqcGdeQXVyMTE0MTY2Mzk2._V1_.jpg" alt="">
+                <p class="upcoming-title">Upcoming Movie</p>
+                <div class="buttons">
+                    <a href="booking.html" class="btn">Book Now</a>
+                    <a href="https://youtu.be/8FkLRUJj-o0?feature=shared" class="btn-alt btn">Play Trailer</a>
+                </div>
+            </div>
+            <div class="current-movies">
+                <div class="current-movie">
+                    <div class="cm-img-box">
+                        <img src="https://cdn.123telugu.com/content/wp-content/uploads/2023/11/Tiger3-2.jpg" alt="">
+                    </div>
+                    <h3 class="movie-title">Tiger 3</h3>
+                    <p class="screen-name">Screen : Platinum</p>
+                    <div class="booking">
+                        <h2 class="price">₹250</h2>
+                        <a href="booking.html" class="btn">Buy Tickets</a>
+                    </div>
+                </div>
+                <div class="current-movie">
+                    <div class="cm-img-box">
+                        <img src="https://m.media-amazon.com/images/M/MV5BNDY5YWMzOWEtNTVhZi00NTdmLWIxNGItN2Q5ZmIxNGRkZDYyXkEyXkFqcGdeQXVyMTYzMTU3Njgx._V1_FMjpg_UX1000_.jpg" alt="">
+                    </div>
+                    <h3 class="movie-title">12th Fail</h3>
+                    <p class="screen-name">Screen : Gold</p>
+                    <div class="booking">
+                        <h2 class="price">₹170</h2>
+                        <a href="booking.html" class="btn">Buy Tickets</a>
+                    </div>
+                </div>
+                <div class="current-movie">
+                    <div class="cm-img-box">
+                        <img src="https://lumiere-a.akamaihd.net/v1/images/56245l11a_goat_philippines_apac_poster_1sht_e357e03a.jpeg?region=0%2C0%2C2592%2C3840" alt="">
+                    </div>
+                    <h3 class="movie-title">The Marvels</h3>
+                    <p class="screen-name">Screen : Silver</p>
+                    <div class="booking">
+                        <h2 class="price">₹240</h2>
+                        <a href="booking.html" class="btn">Buy Tickets</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
